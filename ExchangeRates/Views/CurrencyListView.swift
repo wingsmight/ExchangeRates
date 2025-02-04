@@ -32,6 +32,8 @@ final class CurrencyListView: UIView {
     }
 
     private func setupUI() {
+        backgroundColor = .systemBackground
+        
         addSubview(tableView)
 
         NSLayoutConstraint.activate([
